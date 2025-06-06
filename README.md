@@ -63,18 +63,3 @@ Movie information is in this file in the format: `MovieID::Title::Genres`
   * For a target user, it identifies the most similar users and recommends movies they rated highly.
   * Recommendations are ranked by a weighted score (`Weight = Rating * Similarity`) to prioritize movies liked by the most similar users.
 
-## How to Run
-
-### Prerequisites
-You will need to have the following Python libraries installed:
-
-* `pandas`
-* `seaborn`
-* `matplotlib`
-* `scikit-learn`
-* `geopandas`
-
-You can install them using pip:
-
-```bash
-pip install pandas seaborn matplotlib scikit-learn geopandas
